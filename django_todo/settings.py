@@ -30,13 +30,13 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-o!2!bugnx2jikvtjgxhtk
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = development
 
-if development:
-    ALLOWED_HOSTS = ['localhost']
-else:
-    # ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
-    ALLOWED_HOSTS = ['https://ckz8780-django-todo-app-lesson.herokuapp.com/']
+# if development:
+#     ALLOWED_HOSTS = ['localhost']
+# else:
+#     # ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
+#     ALLOWED_HOSTS = ['https://ckz8780-django-todo-app-lesson.herokuapp.com/']
 
-
+ALLOWED_HOSTS = ['https://ckz8780-django-todo-app-lesson.herokuapp.com/']
 # Application definition
 
 INSTALLED_APPS = [
