@@ -35,7 +35,6 @@ if development:
 else:
     ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 
-# ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 # ALLOWED_HOSTS = ['localhost', 'ckz8780-django-todo-app-lesson.herokuapp.com']
 # Application definition
 
