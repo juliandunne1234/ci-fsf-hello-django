@@ -36,6 +36,7 @@ DEBUG = development
 #     # ALLOWED_HOSTS = [os.environ.get('HEROKU_HOSTNAME')]
 #     ALLOWED_HOSTS = ['https://ckz8780-django-todo-app-lesson.herokuapp.com/']
 
+ALLOWED_HOSTS = ['localhost']
 ALLOWED_HOSTS = ['ckz8780-django-todo-app-lesson.herokuapp.com']
 # Application definition
 
